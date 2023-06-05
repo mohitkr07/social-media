@@ -7,6 +7,7 @@
     flex-direction: column;
     border: 1px solid black;
     background-color: rgb(244, 249, 254);
+    /* position: fixed; */
 }
 
 .profile-card-top{
@@ -47,6 +48,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
+    
 }
 .header-navigate{
     /* align-self: flex-end; */
@@ -65,4 +68,15 @@
 }
 .header-logout{
     margin: 0 50px
+}
+/* header --x-x-x-x-x-x-x-x--x-x-x-x-x */
+
+/* ------------post-card-------- */
+.post-box{
+    width: 100%;
+    height: fit-content;
+
+}
+.post-box img{
+    width: 100%;
 }
